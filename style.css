@@ -1,0 +1,44 @@
+div[data-testid="stSidebarUserContent"] {
+    padding-top: 20px;
+}
+
+label[data-testid="stWidgetLabel"] p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+div[data-testid="StyledLinkIconContainer"] {
+    text-align: center;
+}
+.block-container {
+    padding-top: 60px;
+    font-size: 1rem;
+}
+.block-container div[data-testid="stVerticalBlock"] {
+    display: block;
+}
+.block-container .stButton button[kind="secondary"] {
+    color: #007bff; /* Blue background */
+    background-color: white;
+    width: 3rem;
+    height: 3rem;
+    padding: 0px;
+    /* border: none; */
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.block-container .stButton button[kind="primary"] {
+    margin-top: 100px;
+    background-color: white;
+    color: #196e1999;
+    /* border: 0px; */
+    border-color: #196e1999;
+    width: 100%;
+}
+.block-container .stButton button p {
+    font-size: 2.5rem;
+}
+
+.red-text {
+    color: red;
+}
